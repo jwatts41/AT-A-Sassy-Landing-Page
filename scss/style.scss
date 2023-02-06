@@ -1,3 +1,6 @@
+@import "utilities";
+@import "config";
+@import "btnConfig";
 
 * {
   box-sizing: border-box;
@@ -21,7 +24,7 @@ a {
 
 .hero {
   // This is where the bulk of the SCSS styling needs to be done
-
+@include set-bg($primary-color);
   // Take a look at the other files we've built already. How can they be useful here?
 
   // Also, take time to review the features of SCSS we've already covered:
